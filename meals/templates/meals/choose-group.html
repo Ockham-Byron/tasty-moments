@@ -1,0 +1,27 @@
+{% extends "dashboard/base.html" %}
+{% load static i18n %}
+{% block title %}{% trans 'Choose Group' %} {% endblock %}
+{% block content %}
+{% include 'users/includes/messages.html' %}
+
+
+  <h1 class="text-center mb-5">{% trans 'With whom did you share this dish ?' %}</h1>
+    <div class="d-flex justify-content-center flex-wrap">
+        {% for i in groups %}
+          <a href="{% url 'add-dish-to-group' i.slug %}" class="btn btn-rounded btn-kdark">
+          {% if i.group_pic%}
+            <div class="card group-card d-flex flex-column justify-content-end" style="background:url('{{i.group_pic.url}}') rgba(39, 73, 109, 0.5) ; background-blend-mode: multiply; background-size:cover; background-position:center">
+          {% else %}
+            <div class="card group-card d-flex flex-column justify-content-end" style="background:url('{% static 'assets/img/illustrations/group_default.jpeg' %}') rgba(39, 73, 109, 0.5) ; background-blend-mode: multiply; background-size:cover; background-position:center;">
+          {% endif %}
+                <h5 class="card-title text-center">{{i.name}}</h5>
+                <p class="card-text text-center pb-2">{{i.description}}</p>
+            </div>
+          </a> 
+        {% endfor %}
+    </div>
+
+
+
+
+{% endblock %}

@@ -1,0 +1,32 @@
+{% extends "dashboard/base.html" %}
+{% load i18n static %}
+{% block content %}
+
+<h1 class="text-center mb-3">{% trans 'Musics of' %} {{group}}</h1>
+
+{% for music in musics%}
+  <div class="large-card shadow">
+  <div class="d-flex justify-content-start">
+  <div>
+    {% for meal in music.meal.all%}
+      {{meal.eaten_at|date:"d M Y"}}
+    {% endfor %}
+  </div>
+
+  <div class="vertical-bar mx-3">
+
+  </div>
+
+  <div>
+    <h5>{{music.artist}}</h5>
+    <p>{{music.title}}</p>
+  </div>
+
+  </div>
+  <div class="edit-button">
+              <a href="{% url 'edit-music'  music.id %}" class="dark-color small"><i class="fa fa-pencil"></i>{% trans 'Edit' %}</a>
+          </div>
+  </div>
+{% endfor %}
+
+{% endblock %}

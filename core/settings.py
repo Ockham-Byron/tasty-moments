@@ -41,7 +41,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'example'
+    
+     #my_apps 
+    'users',
+    'groups',
+    'meals',
 ]
 
 MIDDLEWARE = [
@@ -59,7 +63,7 @@ ROOT_URLCONF = 'core.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -80,7 +84,12 @@ WSGI_APPLICATION = 'core.wsgi.app'
 # Note: Django modules for using databases are not support in serverless
 # environments like Vercel. You can use a database over HTTP, hosted elsewhere.
 
-DATABASES = {}
+DATABASES = {
+  'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
+}
 
 
 # Password validation
@@ -123,3 +132,11 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+#Authentication
+AUTH_USER_MODEL = 'users.CustomUser'
+AUTHENTICATION_BACKENDS = ['users.backends.EmailBackend']
+
+
+LOGIN_REDIRECT_URL = '/'

@@ -1,0 +1,92 @@
+{% extends "dashboard/base.html" %}
+{% load i18n static %}
+{% block content %}
+
+<h1 class="mt-2 mb-5 text-center">
+{% if group.name %}
+  {% trans "Dishes of" %} {{group.name}}
+{% else %}
+  {% trans 'All Dishes' %}
+{% endif %}
+</h1>
+
+<div class="d-flex mt-5 pt-5 justify-content-center flex-wrap ">
+  {% for dish in dishes %}
+    <div class="card card-recipe shadow mx-2">
+      <div class="row justify-content-center">
+        <div class="col-lg-3 order-lg-2">
+          <a href="{% url 'dish-detail' dish.slug %}">
+          <div class="card-recipe-image">
+            {% if dish.picture %}
+              <img src="{{ dish.picture.url }}">
+            {% else %}
+            <img src="{% static 'assets/img/illustrations/dish_default.jpeg' %}" alt="Dish picture"  >
+            {% endif %}
+          </div>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card-body pt-0 pt-md-4">
+        
+        <div class="text-center">
+          <h3>
+            {{dish.name}}
+          </h3>
+          <div class="darkest-color">
+            <i class="fa-solid fa-kitchen-set me-2"></i>
+            {% if dish.chef.all%}
+              {% for chef in dish.chef.all %}
+                {{chef}}
+              {% endfor %}
+            {% else %}
+              {% trans 'Nobody cooked ' %} ?
+            {% endif %}
+          </div>
+          <div class="darkest-color">
+            <i class="fa-solid fa-hands-clapping me-2"></i>
+            {% if dish.averagereview %}
+              {{dish.averagereview}}
+            {% else %}
+              {% trans 'No comment' %}
+            {% endif %}
+          </div>
+          
+         
+          <hr class="my-4">
+
+          <div class="d-flex flex-column align-items-center">
+          
+          <a class="btn-wide btn-mid-color mb-2" href={% url 'dish-detail' dish.slug %}>{% trans 'View details' %}</a>
+          {% if dish.has_commented %}
+            {% for comment in dish.dish_comments.all %}
+              {% if comment.author == request.user %}
+                <a class="btn-wide btn-brand-color" href="{% url 'edit-comment' comment.id %}">{% trans 'Edit you comment' %}</a>
+              {% endif %}
+            {% endfor%}
+          {% else %}
+            <a class="btn-wide btn-brand-color" href="{% url 'add-comment' dish.slug %}">{% trans 'Add comment' %}</a>
+          {% endif %}
+
+          
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="edit-button">
+              <a href="{% url 'edit-dish'  dish.slug%}" class="dark-color small"><i class="fa fa-pencil"></i>{% trans 'Edit Dish' %}</a>
+          </div>
+    </div>
+  {% endfor %}
+</div>
+    
+<!-- Floating button -->
+<a href="{% url 'add-dish' %}">
+<div class="kfloat" data-bs-toggle="tooltip" title="{% trans 'Add Dish' %}">
+<div class="my-float">+</div>
+</div>
+</a>
+ 
+
+{% endblock %}

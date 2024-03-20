@@ -1,0 +1,149 @@
+{% extends "dashboard/base.html" %}
+{% load i18n static %}
+
+{% block title %}{% trans 'Meals' %}{% endblock %}
+
+{% block content %}
+
+
+<h1 class=" mb-5 text-center">
+{% if group.name %}
+  {% trans "Meals with" %} {{group.name}}
+{% else %}
+  {% trans 'All Meals' %}
+{% endif %}
+</h1>
+
+{% if meals %}
+<div class="d-flex mt-5 pt-5 justify-content-center flex-wrap ">
+  {% for meal in meals %}
+    <div class="card card-recipe shadow mx-2">
+      <div class="row justify-content-center">
+        <div class="col-lg-3 order-lg-2">
+          <div class="card-recipe-image">
+            {% if meal.picture %}
+              <img src="{{ meal.picture.url }}">
+            {% else %}
+              <img src="{% static 'assets/img/illustrations/meal_default.jpeg' %}" alt="Meal picture"  >
+            {% endif %}
+          </div>
+        </div>
+      </div>
+      
+      <div class="card-body pt-0 pt-md-4">
+        
+        <div class="text-center">
+          <h3>
+            {{meal.eaten_at|date:"d M Y"}}
+          </h3>
+          <a href="{% url 'add-existing-dish' meal.slug%}" class="card-recipe-btn-small">{% trans 'Dishes' %} <i class="fa-solid fa-plus fa-xs"></i></a>
+          {% for dish in meal.dishes.all %}
+          <a href="{% url 'dish-detail' dish.slug %}" class="darkest-color">
+            <div class="d-flex justify-content-between align-items-center">
+              <div style="width:50px;">
+                {% if dish.picture%}
+                <img src="{{dish.picture.url}}" class="rounded-circle small-img">
+                {% endif %}
+              </div>
+              <div>
+                <p class="my-auto">{{dish.name}}</p>
+              </div>
+              <div style="width:50px;">
+              {% if dish.averagereview != None %}
+                {{dish.averagereview |floatformat:1}}
+              {% endif %}
+              </div>
+            </div>
+          </a>
+          {% endfor %}
+          <hr class="my-4">
+
+          <a href="{% url 'add-music' meal.slug%}" class="card-recipe-btn-small">{% trans 'Music' %} <i class="fa-solid fa-plus fa-xs"></i></a>
+          <div class="mb-4"></div>
+          {% for music in meal.meal_musics.all %}
+          <div class="d-flex justify-content-between align-items-center">
+            <div>
+              <p class="my-auto">{{music.title}}</p>
+            </div>
+            <div>
+              {{music.artist}}
+            </div>
+          </div>
+          {% endfor %}
+
+          <hr class="my-4">
+          <!-- Anecdotes -->
+          <a href="{% url 'add-anecdote' meal.slug%}" class="card-recipe-btn-small">{% trans 'Anecdotes' %} <i class="fa-solid fa-plus fa-xs"></i></a>
+          <div class="mb-4"></div>
+          {% for anecdote in meal.meal_anecdotes.all %}
+          
+            <a href="#" type="button" class="darkest-color" data-bs-toggle="modal" data-bs-target="#showAnecdoteModal">
+            <div>
+              <p class="my-auto">{{anecdote.message|truncatewords:20}}</p>
+              <hr>
+            </div>
+              </a>
+              <div class="modal fade" id="showAnecdoteModal" tabindex="-1" aria-labelledby="showAnecdoteModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="text-center">
+                      <img src="{% static 'assets/img/icons/micro-100.png' %}" alt="error icon" />
+                      <br/>
+                      <h5 class="modal-title mid-color" id="exampleModalLabel">{% trans 'Anecdote' %}</h5>
+                    </div>
+                    <div class="text-center">
+                      <p class="darkest-color p-4">{{anecdote.message}}</p>
+                    </div>
+                    <div class="d-flex justify-content-evenly pb-2">
+                      <a href="{% url 'edit-anecdote' anecdote.id %}"  class="btn btn-mid-color btn-modal" >{% trans "Edit" %}</a>
+                      <a type="button" class="btn btn-outlined btn-modal outline-mid-color" data-bs-dismiss="modal">{% trans 'Close' %}</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          {% endfor %}
+          
+          
+          
+        </div>
+        <div class="d-flex justify-content-between bottom-buttons">
+        <a href="{% url 'invite-guest' meal.slug %}" class="text-center mid-color small"><i class="fa-solid fa-door-open pe-1"></i>{% trans "Invite Guest" %}</a>
+       
+          <a href="{% url 'edit-meal'  meal.slug%}" class="text-center dark-color small"><i class="fa fa-pencil pe-1"></i>{% trans 'Edit meal' %}</a>
+        
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+{% else %}
+<div class="d-flex p-2 justify-content-center flex-wrap">
+<a class="btn" href="{% url 'add-meal' %}">
+        <div class="sketch-box">
+            <div class="card-cta border-0 sketch-box">
+                <img class="card-icon mx-auto" src="{% static 'assets/img/icons/add-100.png' %}" alt="Card image cap" width="100px" >
+                <div class="card-body">
+                {% trans 'ADD FIRST MEAL' %}
+                </div>
+            </div>
+        </div>
+</a>
+</div>
+{% endif %}
+
+
+<!-- Floating button -->
+<a href="{% url 'add-meal' %}">
+<div class="kfloat" data-bs-toggle="tooltip" data-bs-placement="top" title="{% trans 'Add Meal' %}">
+<div class="my-float">+</div>
+</div>
+</a>
+ 
+
+
+
+
+{% endblock %}
