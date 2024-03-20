@@ -1,0 +1,1261 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-08 07:10+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: core/settings.py:130
+msgid "English"
+msgstr ""
+
+#: core/settings.py:131
+msgid "French"
+msgstr ""
+
+#: dashboard/templates/dashboard/dashboard.html:6
+msgid "Dashboard"
+msgstr ""
+
+#: ⁨dashboard/templates/dashboard/includes/sidebar copy.html⁩:18
+#: dashboard/templates/dashboard/includes/sidebar.html:18
+msgid "Profile"
+msgstr ""
+
+#: ⁨dashboard/templates/dashboard/includes/sidebar copy.html⁩:24
+#: dashboard/templates/dashboard/includes/sidebar.html:24
+#: users/templates/users/includes/header.html:33
+msgid "Sign out"
+msgstr ""
+
+#: ⁨dashboard/templates/dashboard/includes/sidebar copy.html⁩:35
+#: dashboard/templates/dashboard/includes/sidebar.html:35
+#: groups/templates/groups/member_groups.html:8
+msgid "Groups"
+msgstr ""
+
+#: ⁨dashboard/templates/dashboard/includes/sidebar copy.html⁩:38
+#: dashboard/templates/dashboard/includes/sidebar.html:39
+msgid "Add group"
+msgstr ""
+
+#: ⁨dashboard/templates/dashboard/includes/sidebar copy.html⁩:39
+#: dashboard/templates/dashboard/includes/sidebar.html:38
+msgid "My groups"
+msgstr ""
+
+#: ⁨dashboard/templates/dashboard/includes/sidebar copy.html⁩:45
+#: ⁨dashboard/templates/dashboard/includes/sidebar copy.html⁩:50
+#: dashboard/templates/dashboard/includes/sidebar.html:45
+#: dashboard/templates/dashboard/includes/sidebar.html:50
+#: meals/templates/meals/all-meals.html:4
+#: meals/templates/meals/dish-detail.html:101
+msgid "Meals"
+msgstr ""
+
+#: ⁨dashboard/templates/dashboard/includes/sidebar copy.html⁩:53
+#: dashboard/templates/dashboard/includes/sidebar.html:53
+#: meals/templates/meals/all-meals.html:13
+msgid "All Meals"
+msgstr ""
+
+#: ⁨dashboard/templates/dashboard/includes/sidebar copy.html⁩:55
+#: dashboard/templates/dashboard/includes/sidebar.html:55
+#: meals/templates/meals/all-meals.html:11
+msgid "Meals with"
+msgstr ""
+
+#: ⁨dashboard/templates/dashboard/includes/sidebar copy.html⁩:64
+#: dashboard/templates/dashboard/includes/sidebar.html:64
+#: groups/templates/groups/group_detail.html:241
+#: meals/templates/meals/add-meal.html:3 meals/templates/meals/add-meal.html:17
+#: meals/templates/meals/all-meals.html:140
+msgid "Add Meal"
+msgstr ""
+
+#: ⁨dashboard/templates/dashboard/includes/sidebar copy.html⁩:71
+#: ⁨dashboard/templates/dashboard/includes/sidebar copy.html⁩:76
+#: dashboard/templates/dashboard/includes/sidebar.html:71
+#: dashboard/templates/dashboard/includes/sidebar.html:76
+#: meals/templates/meals/all-meals.html:39
+#: meals/templates/meals/meal-detail-with-guest.html:34
+msgid "Dishes"
+msgstr ""
+
+#: ⁨dashboard/templates/dashboard/includes/sidebar copy.html⁩:79
+#: dashboard/templates/dashboard/includes/sidebar.html:79
+#: meals/templates/meals/all-dishes.html:9
+msgid "All Dishes"
+msgstr ""
+
+#: ⁨dashboard/templates/dashboard/includes/sidebar copy.html⁩:81
+#: dashboard/templates/dashboard/includes/sidebar.html:81
+#: meals/templates/meals/all-dishes.html:7
+msgid "Dishes of"
+msgstr ""
+
+#: ⁨dashboard/templates/dashboard/includes/sidebar copy.html⁩:90
+#: dashboard/templates/dashboard/includes/sidebar.html:90
+#: meals/templates/meals/add-dish.html:3
+#: meals/templates/meals/add-existing-dish.html:3
+#: meals/templates/meals/all-dishes.html:86
+msgid "Add Dish"
+msgstr ""
+
+#: ⁨dashboard/templates/dashboard/includes/sidebar copy.html⁩:97
+#: dashboard/templates/dashboard/includes/sidebar.html:97
+msgid "Atmosphere"
+msgstr ""
+
+#: ⁨dashboard/templates/dashboard/includes/sidebar copy.html⁩:102
+#: ⁨dashboard/templates/dashboard/includes/sidebar copy.html⁩:107
+#: dashboard/templates/dashboard/includes/sidebar.html:102
+#: dashboard/templates/dashboard/includes/sidebar.html:107
+#: meals/templates/meals/all-meals.html:76
+#: meals/templates/meals/meal-detail-with-guest.html:71
+msgid "Anecdotes"
+msgstr ""
+
+#: ⁨dashboard/templates/dashboard/includes/sidebar copy.html⁩:103
+#: ⁨dashboard/templates/dashboard/includes/sidebar copy.html⁩:117
+#: dashboard/templates/dashboard/includes/sidebar.html:103
+#: dashboard/templates/dashboard/includes/sidebar.html:117
+#: meals/templates/meals/all-meals.html:61
+#: meals/templates/meals/meal-detail-with-guest.html:56
+msgid "Music"
+msgstr ""
+
+#: ⁨dashboard/templates/dashboard/includes/sidebar copy.html⁩:110
+#: dashboard/templates/dashboard/includes/sidebar.html:110
+msgid "Anecdotes with "
+msgstr ""
+
+#: ⁨dashboard/templates/dashboard/includes/sidebar copy.html⁩:120
+#: dashboard/templates/dashboard/includes/sidebar.html:120
+msgid "Music with "
+msgstr ""
+
+#: groups/forms.py:14 groups/forms.py:28
+msgid "Group's Name"
+msgstr ""
+
+#: groups/forms.py:17
+msgid "Description"
+msgstr ""
+
+#: groups/templates/groups/add_group.html:3
+msgid "Create a group"
+msgstr ""
+
+#: groups/templates/groups/add_group.html:22
+msgid "Create Group"
+msgstr ""
+
+#: groups/templates/groups/add_group.html:37
+msgid "Upload Picture of the Group"
+msgstr ""
+
+#: groups/templates/groups/add_group.html:44
+#: meals/templates/meals/add-anecdote.html:34
+#: meals/templates/meals/add-comment.html:36
+#: meals/templates/meals/add-dish.html:101
+#: meals/templates/meals/add-meal.html:72
+#: meals/templates/meals/add-music.html:34
+#: users/templates/users/choose_avatar.html:25
+#: users/templates/users/profile_update.html:84
+msgid "Submit"
+msgstr ""
+
+#: groups/templates/groups/add_group.html:46
+#: groups/templates/groups/group_detail.html:262
+#: groups/templates/groups/update_group.html:56
+#: meals/templates/meals/add-anecdote.html:36
+#: meals/templates/meals/add-anecdote.html:53
+#: meals/templates/meals/add-comment.html:38
+#: meals/templates/meals/add-comment.html:55
+#: meals/templates/meals/add-dish.html:103
+#: meals/templates/meals/add-dish.html:120
+#: meals/templates/meals/add-existing-dish.html:44
+#: meals/templates/meals/add-meal.html:74
+#: meals/templates/meals/add-meal.html:91
+#: meals/templates/meals/add-music.html:36
+#: meals/templates/meals/add-music.html:53
+#: meals/templates/meals/invite-guest.html:35
+#: users/templates/users/authentication/change_email.html:43
+#: users/templates/users/authentication/password_reset.html:47
+#: users/templates/users/authentication/password_reset_confirm.html:60
+#: users/templates/users/choose_avatar.html:27
+#: users/templates/users/profile_update.html:86
+#: users/templates/users/profile_update.html:114
+#: users/templates/users/profile_update.html:133
+msgid "Cancel"
+msgstr ""
+
+#: groups/templates/groups/group_detail.html:77
+msgid "Members"
+msgstr ""
+
+#: groups/templates/groups/group_detail.html:83
+#: groups/templates/groups/group_detail.html:254
+msgid "Invite other people to join your group"
+msgstr ""
+
+#: groups/templates/groups/group_detail.html:84
+msgid "Group's code"
+msgstr ""
+
+#: groups/templates/groups/group_detail.html:86
+#: groups/templates/groups/group_detail.html:259
+msgid "Copy the invitation"
+msgstr ""
+
+#: groups/templates/groups/group_detail.html:143
+msgid "Guests"
+msgstr ""
+
+#: groups/templates/groups/group_detail.html:180
+msgid "ADD FIRST MEAL TO THIS GROUP"
+msgstr ""
+
+#: groups/templates/groups/group_detail.html:193
+msgid "View Meals"
+msgstr ""
+
+#: groups/templates/groups/group_detail.html:203
+msgid "View Dishes"
+msgstr ""
+
+#: groups/templates/groups/group_detail.html:213
+msgid "View Anecdotes"
+msgstr ""
+
+#: groups/templates/groups/group_detail.html:223
+msgid "View Musics"
+msgstr ""
+
+#: groups/templates/groups/group_detail.html:257
+msgid "Code of the group :"
+msgstr ""
+
+#: groups/templates/groups/join_group.html:3
+msgid "Join a group"
+msgstr ""
+
+#: groups/templates/groups/join_group.html:6
+#: groups/templates/groups/member_groups.html:45
+msgid "Join a Group"
+msgstr ""
+
+#: groups/templates/groups/join_group.html:11
+msgid "Group's Code"
+msgstr ""
+
+#: groups/templates/groups/join_group.html:13
+msgid "Join"
+msgstr ""
+
+#: groups/templates/groups/member_groups.html:3
+msgid "My Groups"
+msgstr ""
+
+#: groups/templates/groups/member_groups.html:25
+msgid "Everything begins with a group to share good food and good moments !"
+msgstr ""
+
+#: groups/templates/groups/member_groups.html:35
+msgid "Create a Group "
+msgstr ""
+
+#: groups/templates/groups/update_group.html:3
+#: groups/templates/groups/update_group.html:9
+msgid "Update"
+msgstr ""
+
+#: groups/templates/groups/update_group.html:11
+msgid "Name of the Group"
+msgstr ""
+
+#: groups/templates/groups/update_group.html:15
+msgid "Upload New Picture of the Group"
+msgstr ""
+
+#: groups/templates/groups/update_group.html:45
+msgid "Admin of the Group"
+msgstr ""
+
+#: groups/templates/groups/update_group.html:52
+msgid "Save"
+msgstr ""
+
+#: groups/views.py:29
+#, python-brace-format
+msgid "New group {group_name} created successfully"
+msgstr ""
+
+#: groups/views.py:29
+msgid "Great !"
+msgstr ""
+
+#: meals/forms.py:100
+msgid "Name of the Dish"
+msgstr ""
+
+#: meals/forms.py:145
+msgid "Comment"
+msgstr ""
+
+#: meals/forms.py:154
+msgid "Title"
+msgstr ""
+
+#: meals/forms.py:157
+msgid "Artist"
+msgstr ""
+
+#: meals/forms.py:167 meals/templates/meals/all-meals.html:92
+#: meals/templates/meals/meal-detail-with-guest.html:87
+msgid "Anecdote"
+msgstr ""
+
+#: meals/forms.py:177 users/forms.py:27
+msgid "Username"
+msgstr ""
+
+#: meals/templates/meals/add-anecdote.html:3
+#: meals/templates/meals/add-anecdote.html:27
+msgid "Add Anecdote"
+msgstr ""
+
+#: meals/templates/meals/add-anecdote.html:25
+msgid "Edit Anecdote"
+msgstr ""
+
+#: meals/templates/meals/add-anecdote.html:38
+msgid "Delete Anecdote"
+msgstr ""
+
+#: meals/templates/meals/add-anecdote.html:46
+msgid "Delete Anecdote ?"
+msgstr ""
+
+#: meals/templates/meals/add-anecdote.html:49
+#: meals/templates/meals/add-meal.html:87
+msgid "You will lose all the memories, but hey, no pression..."
+msgstr ""
+
+#: meals/templates/meals/add-anecdote.html:52
+#: meals/templates/meals/add-comment.html:54
+#: meals/templates/meals/add-dish.html:119
+#: meals/templates/meals/add-meal.html:90
+#: meals/templates/meals/add-music.html:52
+#: users/templates/users/profile_update.html:113
+#: users/templates/users/profile_update.html:132
+msgid "Yes, no regret"
+msgstr ""
+
+#: meals/templates/meals/add-comment.html:3
+msgid "Add Comment"
+msgstr ""
+
+#: meals/templates/meals/add-comment.html:26
+msgid "Edit your comment of"
+msgstr ""
+
+#: meals/templates/meals/add-comment.html:28
+msgid "Add Comment to"
+msgstr ""
+
+#: meals/templates/meals/add-comment.html:33
+msgid "Your rating"
+msgstr ""
+
+#: meals/templates/meals/add-comment.html:40
+msgid "Delete Comment"
+msgstr ""
+
+#: meals/templates/meals/add-comment.html:48
+msgid "Delete Comment ?"
+msgstr ""
+
+#: meals/templates/meals/add-comment.html:51
+msgid "Your opinion was interesant, you know..."
+msgstr ""
+
+#: meals/templates/meals/add-dish.html:27
+#: meals/templates/meals/all-anecdotes.html:26
+#: meals/templates/meals/all-meals.html:98
+#: meals/templates/meals/all-musics.html:27
+#: meals/templates/meals/meal-detail-with-guest.html:93
+msgid "Edit"
+msgstr ""
+
+#: meals/templates/meals/add-dish.html:29
+#: meals/templates/meals/add-existing-dish.html:12
+msgid "Add Dish "
+msgstr ""
+
+#: meals/templates/meals/add-dish.html:32
+#: meals/templates/meals/add-existing-dish.html:12
+msgid "at the Meal of "
+msgstr ""
+
+#: meals/templates/meals/add-dish.html:66
+msgid "Who cooked ?"
+msgstr ""
+
+#: meals/templates/meals/add-dish.html:88
+msgid "At which meal did you eat this dish ? "
+msgstr ""
+
+#: meals/templates/meals/add-dish.html:105
+msgid "Delete Dish"
+msgstr ""
+
+#: meals/templates/meals/add-dish.html:113
+msgid "Delete Dish ?"
+msgstr ""
+
+#: meals/templates/meals/add-dish.html:116
+msgid "Big big choice here, you're sure to send this dish to the trash ? "
+msgstr ""
+
+#: meals/templates/meals/add-existing-dish.html:13
+msgid "Add New Dish ?"
+msgstr ""
+
+#: meals/templates/meals/add-existing-dish.html:16
+msgid "Or Add existing Dish:"
+msgstr ""
+
+#: meals/templates/meals/add-existing-dish.html:42
+msgid "Add to Meal"
+msgstr ""
+
+#: meals/templates/meals/add-meal.html:14
+msgid "Edit Meal of "
+msgstr ""
+
+#: meals/templates/meals/add-meal.html:46
+msgid "Where did you eat ?"
+msgstr ""
+
+#: meals/templates/meals/add-meal.html:52
+msgid "When did you share this beautiful meal ?"
+msgstr ""
+
+#: meals/templates/meals/add-meal.html:57
+msgid "Which dishes did you eat ?"
+msgstr ""
+
+#: meals/templates/meals/add-meal.html:59
+msgid "Add New Dish"
+msgstr ""
+
+#: meals/templates/meals/add-meal.html:61
+msgid "Add Existing Dish"
+msgstr ""
+
+#: meals/templates/meals/add-meal.html:76
+msgid "Delete Meal"
+msgstr ""
+
+#: meals/templates/meals/add-meal.html:84
+msgid "Delete Meal ?"
+msgstr ""
+
+#: meals/templates/meals/add-music.html:3
+#: meals/templates/meals/add-music.html:27
+msgid "Add Song"
+msgstr ""
+
+#: meals/templates/meals/add-music.html:25
+msgid "Edit Song"
+msgstr ""
+
+#: meals/templates/meals/add-music.html:38
+msgid "Delete Song"
+msgstr ""
+
+#: meals/templates/meals/add-music.html:46
+msgid "Delete Song ?"
+msgstr ""
+
+#: meals/templates/meals/add-music.html:49
+msgid "You will lose all the memories of this song, but hey, no pression..."
+msgstr ""
+
+#: meals/templates/meals/all-anecdotes.html:5
+msgid "Anecdotes of"
+msgstr ""
+
+#: meals/templates/meals/all-dishes.html:43
+msgid "Nobody cooked "
+msgstr ""
+
+#: meals/templates/meals/all-dishes.html:51
+msgid "No comment"
+msgstr ""
+
+#: meals/templates/meals/all-dishes.html:60
+msgid "View details"
+msgstr ""
+
+#: meals/templates/meals/all-dishes.html:64
+msgid "Edit you comment"
+msgstr ""
+
+#: meals/templates/meals/all-dishes.html:68
+msgid "Add comment"
+msgstr ""
+
+#: meals/templates/meals/all-dishes.html:78
+msgid "Edit Dish"
+msgstr ""
+
+#: meals/templates/meals/all-meals.html:99
+#: meals/templates/meals/meal-detail-with-guest.html:94
+msgid "Close"
+msgstr ""
+
+#: meals/templates/meals/all-meals.html:113
+#: meals/templates/meals/invite-guest.html:3
+msgid "Invite Guest"
+msgstr ""
+
+#: meals/templates/meals/all-meals.html:115
+msgid "Edit meal"
+msgstr ""
+
+#: meals/templates/meals/all-meals.html:129
+msgid "ADD FIRST MEAL"
+msgstr ""
+
+#: meals/templates/meals/all-musics.html:5
+msgid "Musics of"
+msgstr ""
+
+#: meals/templates/meals/choose-group.html:3
+msgid "Choose Group"
+msgstr ""
+
+#: meals/templates/meals/choose-group.html:8
+msgid "With whom did you share this dish ?"
+msgstr ""
+
+#: meals/templates/meals/dish-detail.html:30
+msgid "Guest Mode with "
+msgstr ""
+
+#: meals/templates/meals/dish-detail.html:36
+msgid "Edit your comment"
+msgstr ""
+
+#: meals/templates/meals/dish-detail.html:40
+#: meals/templates/meals/dish-detail.html:88
+msgid "Add your comment"
+msgstr ""
+
+#: meals/templates/meals/dish-detail.html:43
+msgid "Back to Meal"
+msgstr ""
+
+#: meals/templates/meals/dish-detail.html:49
+msgid "Ratings"
+msgstr ""
+
+#: meals/templates/meals/dish-detail.html:99
+msgid "Eaten at"
+msgstr ""
+
+#: meals/templates/meals/dish-detail.html:103
+#: meals/templates/meals/meal-detail-with-guest.html:4
+msgid "Meal"
+msgstr ""
+
+#: meals/templates/meals/invite-guest.html:25
+msgid "Invite Guest to Comment"
+msgstr ""
+
+#: meals/templates/meals/invite-guest.html:33
+msgid "Invite"
+msgstr ""
+
+#: meals/templates/meals/meal-detail-with-guest.html:13
+msgid "Guest Mode"
+msgstr ""
+
+#: meals/templates/meals/meal-detail-with-guest.html:112
+msgid "Exit of guest mode"
+msgstr ""
+
+#: meals/urls.py:8
+msgid "all-meals"
+msgstr ""
+
+#: meals/urls.py:9
+msgid "group-meals/<slug>"
+msgstr ""
+
+#: meals/urls.py:10
+msgid "add-meal"
+msgstr ""
+
+#: meals/urls.py:11
+msgid "add-meal/<slug>"
+msgstr ""
+
+#: meals/urls.py:12
+msgid "edit-meal/<slug>"
+msgstr ""
+
+#: meals/urls.py:13
+msgid "delete-meal/<slug>"
+msgstr ""
+
+#: meals/urls.py:14
+msgid "meal-detail-guest/<slug>/<guest>"
+msgstr ""
+
+#: meals/urls.py:17
+msgid "all-dishes"
+msgstr ""
+
+#: meals/urls.py:18
+msgid "group-dishes/<slug>"
+msgstr ""
+
+#: meals/urls.py:19
+msgid "add-dish"
+msgstr ""
+
+#: meals/urls.py:20
+msgid "add-dish-to-meal/<slug>"
+msgstr ""
+
+#: meals/urls.py:21
+msgid "add-dish-to-group/<slug>"
+msgstr ""
+
+#: meals/urls.py:22
+msgid "edit-dish/<slug>"
+msgstr ""
+
+#: meals/urls.py:23
+msgid "delete-dish/<slug>"
+msgstr ""
+
+#: meals/urls.py:24
+msgid "add-existing-dish/<slug>"
+msgstr ""
+
+#: meals/urls.py:25
+msgid "dish/<slug>"
+msgstr ""
+
+#: meals/urls.py:26
+msgid "dish/<meal>/<dish>/<guest>"
+msgstr ""
+
+#: meals/urls.py:29
+msgid "add-comment/<slug>"
+msgstr ""
+
+#: meals/urls.py:30
+msgid "add-comment/<meal>/<dish>/<guest>"
+msgstr ""
+
+#: meals/urls.py:31
+msgid "edit-comment/<id>"
+msgstr ""
+
+#: meals/urls.py:32
+msgid "edit-comment/<meal>/<dish>/<guest>/<id>"
+msgstr ""
+
+#: meals/urls.py:33
+msgid "delete-comment/<id>"
+msgstr ""
+
+#: meals/urls.py:36
+msgid "add-music/<slug>"
+msgstr ""
+
+#: meals/urls.py:37
+msgid "edit-music/<id>"
+msgstr ""
+
+#: meals/urls.py:38
+msgid "delete-music/<id>"
+msgstr ""
+
+#: meals/urls.py:39
+msgid "group-music/<slug>"
+msgstr ""
+
+#: meals/urls.py:42
+msgid "anecdote/<slug>"
+msgstr ""
+
+#: meals/urls.py:43
+msgid "edit-anecdote/<id>"
+msgstr ""
+
+#: meals/urls.py:44
+msgid "delete-anecdote/<id>"
+msgstr ""
+
+#: meals/urls.py:45
+msgid "group-anecdotes/<slug>"
+msgstr ""
+
+#: meals/urls.py:48
+msgid "invite-guest/<slug>"
+msgstr ""
+
+#: meals/views.py:320
+msgid "Please select the group you shared the meal with."
+msgstr ""
+
+#: pages/templates/pages/bye.html:3 pages/templates/pages/bye.html:10
+msgid "See you ?"
+msgstr ""
+
+#: pages/templates/pages/bye.html:11
+msgid "Your account has been deleted successfully"
+msgstr ""
+
+#: pages/templates/pages/bye.html:12
+msgid "If there is anything we could have done differently, please write us !"
+msgstr ""
+
+#: pages/templates/pages/bye.html:13
+msgid "Write a message"
+msgstr ""
+
+#: pages/templates/pages/page_not_found.html:3
+msgid "Page not found"
+msgstr ""
+
+#: pages/templates/pages/page_not_found.html:10
+msgid "Oops"
+msgstr ""
+
+#: pages/templates/pages/page_not_found.html:11
+msgid "We can't find what your looking for ;-( "
+msgstr ""
+
+#: pages/templates/pages/page_not_found.html:18
+msgid "Go back"
+msgstr ""
+
+#: users/admin.py:11
+msgid "Activity within six months"
+msgstr ""
+
+#: users/admin.py:25
+msgid "Active"
+msgstr ""
+
+#: users/admin.py:26
+msgid "Inactive"
+msgstr ""
+
+#: users/forms.py:24
+msgid ""
+"A user with that email already exists. If you have lost your password, "
+"please go to Login and Forgot password."
+msgstr ""
+
+#: users/forms.py:25 users/forms.py:49 users/forms.py:72 users/forms.py:124
+#: users/templates/users/profile.html:47
+#: users/templates/users/profile_update.html:75
+msgid "Email"
+msgstr ""
+
+#: users/forms.py:28 users/forms.py:50
+msgid "Password"
+msgstr ""
+
+#: users/forms.py:29
+msgid "Repeat Password"
+msgstr ""
+
+#: users/forms.py:59
+#, python-format
+msgid ""
+"This isn't the password registered with %(email)s. If you don't remember "
+"your password, please click on 'Forgot Password' ."
+msgstr ""
+
+#: users/forms.py:62
+#, python-format
+msgid "No user registered with %(email)s..."
+msgstr ""
+
+#: users/forms.py:84
+msgid "The two password fields didn’t match."
+msgstr ""
+
+#: users/forms.py:87
+msgid "New password"
+msgstr ""
+
+#: users/forms.py:93
+msgid "New password confirmation"
+msgstr ""
+
+#: users/forms.py:122
+msgid "First Name"
+msgstr ""
+
+#: users/forms.py:123
+msgid "Last Name"
+msgstr ""
+
+#: users/forms.py:125
+msgid "Pseudo"
+msgstr ""
+
+#: users/forms.py:127 users/templates/users/profile.html:54
+msgid "Bio"
+msgstr ""
+
+#: users/templates/users/authentication/change_email.html:11
+msgid "Update your email"
+msgstr ""
+
+#: users/templates/users/authentication/change_email.html:41
+msgid "Update Email"
+msgstr ""
+
+#: users/templates/users/authentication/emails/create_account_email.html:4
+#: users/templates/users/authentication/emails/password_reset_email.html:4
+#: users/templates/users/authentication/emails/verify_email_message.html:4
+#: users/templates/users/authentication/emails/verify_email_message.html:9
+#: users/views.py:38
+msgid "Verify Email"
+msgstr ""
+
+#: users/templates/users/authentication/emails/create_account_email.html:6
+#: users/templates/users/authentication/emails/password_reset_email.html:6
+#: users/templates/users/authentication/emails/verify_email_message.html:6
+msgid "Hi"
+msgstr ""
+
+#: users/templates/users/authentication/emails/create_account_email.html:7
+#: users/templates/users/authentication/emails/password_reset_email.html:7
+msgid ""
+"You're receiving this email because you requested a password reset for your "
+"user account at"
+msgstr ""
+
+#: users/templates/users/authentication/emails/create_account_email.html:8
+msgid "We don't have any account registered with this email address."
+msgstr ""
+
+#: users/templates/users/authentication/emails/create_account_email.html:9
+msgid "However, you can create a new account !"
+msgstr ""
+
+#: users/templates/users/authentication/emails/create_account_email.html:11
+msgid "Create account"
+msgstr ""
+
+#: users/templates/users/authentication/emails/create_account_email.html:13
+#: users/templates/users/authentication/emails/password_reset_email.html:11
+#: users/templates/users/authentication/emails/verify_email_message.html:11
+msgid "Or you can copy the link below to your browser"
+msgstr ""
+
+#: users/templates/users/authentication/emails/password_reset_email.html:9
+#: users/templates/users/authentication/password_reset_confirm.html:58
+msgid "Reset Password"
+msgstr ""
+
+#: users/templates/users/authentication/emails/password_reset_subject.txt:3
+msgid "Password Reset"
+msgstr ""
+
+#: users/templates/users/authentication/emails/verify_email_message.html:7
+msgid ""
+"You created an account on ...., you need to verify your email. Please click "
+"on the button below to verify your email."
+msgstr ""
+
+#: users/templates/users/authentication/login.html:11
+msgid "Welcome back"
+msgstr ""
+
+#: users/templates/users/authentication/login.html:12
+msgid "Please sign in to access your account"
+msgstr ""
+
+#: users/templates/users/authentication/login.html:47
+msgid "Remember me"
+msgstr ""
+
+#: users/templates/users/authentication/login.html:48
+msgid "Forgot password?"
+msgstr ""
+
+#: users/templates/users/authentication/login.html:57
+#: users/templates/users/authentication/register.html:79
+msgid "Log in"
+msgstr ""
+
+#: users/templates/users/authentication/login.html:59
+msgid "New member?"
+msgstr ""
+
+#: users/templates/users/authentication/login.html:59
+msgid "Signup now"
+msgstr ""
+
+#: users/templates/users/authentication/logout.html:3
+msgid "See you soon"
+msgstr ""
+
+#: users/templates/users/authentication/logout.html:10
+msgid "See you soon !"
+msgstr ""
+
+#: users/templates/users/authentication/logout.html:11
+msgid "You have been logged out successfully "
+msgstr ""
+
+#: users/templates/users/authentication/logout.html:12
+#: users/templates/users/includes/header.html:37
+msgid "Log In"
+msgstr ""
+
+#: users/templates/users/authentication/password_reset.html:11
+#: users/templates/users/authentication/password_reset_confirm.html:11
+msgid "Reset password"
+msgstr ""
+
+#: users/templates/users/authentication/password_reset.html:12
+msgid ""
+"Please enter your email address below and we will send you an email with a "
+"link to reset your password."
+msgstr ""
+
+#: users/templates/users/authentication/password_reset.html:45
+msgid "Send Email"
+msgstr ""
+
+#: users/templates/users/authentication/password_reset_complete.html:10
+msgid "You have successfully reset your password !"
+msgstr ""
+
+#: users/templates/users/authentication/password_reset_complete.html:12
+#: users/templates/users/authentication/verify_email_complete.html:12
+msgid "Access my dashboard"
+msgstr ""
+
+#: users/templates/users/authentication/password_reset_confirm.html:44
+#: users/templates/users/authentication/register.html:58
+msgid "Minimum 8 characters"
+msgstr ""
+
+#: users/templates/users/authentication/password_reset_confirm.html:45
+#: users/templates/users/authentication/register.html:59
+msgid "Mix of lowercase and uppercase"
+msgstr ""
+
+#: users/templates/users/authentication/password_reset_confirm.html:46
+#: users/templates/users/authentication/register.html:60
+msgid "Minimum a number"
+msgstr ""
+
+#: users/templates/users/authentication/password_reset_confirm.html:47
+#: users/templates/users/authentication/register.html:61
+msgid "Minimum a special character"
+msgstr ""
+
+#: users/templates/users/authentication/password_reset_confirm.html:48
+#: users/templates/users/authentication/register.html:62
+msgid "Same passwords"
+msgstr ""
+
+#: users/templates/users/authentication/password_reset_done.html:10
+msgid "An email has been sent !"
+msgstr ""
+
+#: users/templates/users/authentication/password_reset_done.html:12
+msgid ""
+"Please check your mailbox and follow the instructions to reset your password."
+msgstr ""
+
+#: users/templates/users/authentication/register.html:11
+msgid "Get Started"
+msgstr ""
+
+#: users/templates/users/authentication/register.html:12
+msgid "by creating a free account"
+msgstr ""
+
+#: users/templates/users/authentication/register.html:67
+msgid "By creating an account you agree to our"
+msgstr ""
+
+#: users/templates/users/authentication/register.html:67
+#: users/templates/users/includes/footer.html:12
+msgid "Terms and Conditions"
+msgstr ""
+
+#: users/templates/users/authentication/register.html:67
+msgid "and our "
+msgstr ""
+
+#: users/templates/users/authentication/register.html:67
+#: users/templates/users/includes/footer.html:14
+msgid "Privacy Policy"
+msgstr ""
+
+#: users/templates/users/authentication/register.html:77
+msgid "Sign up"
+msgstr ""
+
+#: users/templates/users/authentication/register.html:79
+msgid "Already a member?"
+msgstr ""
+
+#: users/templates/users/authentication/verify_email.html:10
+msgid "Verify your email address"
+msgstr ""
+
+#: users/templates/users/authentication/verify_email.html:11
+msgid "To unlock all the features of the app, we need to verify your email:"
+msgstr ""
+
+#: users/templates/users/authentication/verify_email.html:16
+msgid "Verify now"
+msgstr ""
+
+#: users/templates/users/authentication/verify_email.html:20
+msgid "Verify later"
+msgstr ""
+
+#: users/templates/users/authentication/verify_email.html:23
+#: users/templates/users/authentication/verify_email_done.html:15
+msgid "Update email"
+msgstr ""
+
+#: users/templates/users/authentication/verify_email_complete.html:10
+msgid "You have successfully verified your email !"
+msgstr ""
+
+#: users/templates/users/authentication/verify_email_done.html:10
+msgid "An email has been sent with instructions to verify your email address"
+msgstr ""
+
+#: users/templates/users/authentication/verify_email_done.html:12
+msgid "Please check your mailbox and follow the instructions."
+msgstr ""
+
+#: users/templates/users/authentication/verify_email_done.html:13
+msgid "No thanks, I prefer going to my dashboard"
+msgstr ""
+
+#: users/templates/users/choose_avatar.html:3
+msgid "Update Avatar"
+msgstr ""
+
+#: users/templates/users/choose_avatar.html:11
+msgid "Update Avatar Color"
+msgstr ""
+
+#: users/templates/users/choose_avatar.html:18
+msgid "Pick your favorite color"
+msgstr ""
+
+#: users/templates/users/home.html:7
+msgid "Tasty Moments"
+msgstr ""
+
+#: users/templates/users/home.html:8
+msgid "The  webapp that turns your meals into unforgettable moments."
+msgstr ""
+
+#: users/templates/users/home.html:9
+msgid ""
+"Picture yourself relishing a delightful dish with your loved ones, "
+"surrounded by laughter and lively conversation. TastyMoments captures these "
+"precious moments in the blink of an eye. More than just an app, it's your "
+"perfect companion for immortalizing every bite, every burst of laughter, and "
+"every melody that accompanies your meals."
+msgstr ""
+
+#: users/templates/users/home.html:13 users/templates/users/home.html:15
+msgid "Enter"
+msgstr ""
+
+#: users/templates/users/home.html:16
+msgid "Join for first time"
+msgstr ""
+
+#: users/templates/users/home.html:31
+msgid "Preserve your culinary memories"
+msgstr ""
+
+#: users/templates/users/home.html:33
+msgid ""
+"Keep track of all the delicious dishes you've shared with your friends and "
+"family. Whether it's a Sunday brunch or a festive dinner, every moment "
+"deserves to be preserved."
+msgstr ""
+
+#: users/templates/users/home.html:38
+msgid "Blend flavors and memories"
+msgstr ""
+
+#: users/templates/users/home.html:41
+msgid ""
+"Associate the dishes you love with music, anecdotes, and emotions that "
+"accompany them. Create unique and personal moments that you'll cherish "
+"forever."
+msgstr ""
+
+#: users/templates/users/home.html:47
+msgid "Rate dishes"
+msgstr ""
+
+#: users/templates/users/home.html:50
+msgid ""
+"Don't let any outstanding dish go unnoticed. With our rating feature, you "
+"can evaluate and share your opinions on the dishes you've tasted, while "
+"discovering recommendations from your friends."
+msgstr ""
+
+#: users/templates/users/includes/footer.html:11
+msgid "Legal Information"
+msgstr ""
+
+#: users/templates/users/includes/footer.html:16
+msgid "Credits"
+msgstr ""
+
+#: users/templates/users/includes/footer.html:19
+msgid "Contact"
+msgstr ""
+
+#: users/templates/users/includes/footer.html:27
+msgid "All Rights Reserved"
+msgstr ""
+
+#: users/templates/users/includes/footer.html:28
+msgid "Made with"
+msgstr ""
+
+#: users/templates/users/includes/footer.html:28
+msgid "by"
+msgstr ""
+
+#: users/templates/users/profile.html:22
+msgid "Informations"
+msgstr ""
+
+#: users/templates/users/profile.html:25
+msgid "Your name"
+msgstr ""
+
+#: users/templates/users/profile.html:33
+msgid "Name"
+msgstr ""
+
+#: users/templates/users/profile.html:38
+msgid "Your Email"
+msgstr ""
+
+#: users/templates/users/profile.html:73
+msgid "Edit Profile"
+msgstr ""
+
+#: users/templates/users/profile.html:79
+msgid "Create an Account"
+msgstr ""
+
+#: users/templates/users/profile_update.html:3
+msgid "Profile Update"
+msgstr ""
+
+#: users/templates/users/profile_update.html:26
+msgid "Create Account"
+msgstr ""
+
+#: users/templates/users/profile_update.html:28
+msgid "Update Profile"
+msgstr ""
+
+#: users/templates/users/profile_update.html:61
+msgid "Delete your profile picture ?"
+msgstr ""
+
+#: users/templates/users/profile_update.html:64
+msgid "Change your avatar color ?"
+msgstr ""
+
+#: users/templates/users/profile_update.html:76
+msgid "Keep your email updated because it's your connection id"
+msgstr ""
+
+#: users/templates/users/profile_update.html:81
+msgid "Change password"
+msgstr ""
+
+#: users/templates/users/profile_update.html:89
+msgid "Delete Account"
+msgstr ""
+
+#: users/templates/users/profile_update.html:107
+msgid "Delete Profile Pic ?"
+msgstr ""
+
+#: users/templates/users/profile_update.html:110
+msgid "We think you look good on this pic, but your face, your choice !"
+msgstr ""
+
+#: users/templates/users/profile_update.html:126
+msgid "Delete your Account ?"
+msgstr ""
+
+#: users/templates/users/profile_update.html:129
+msgid "We'll miss you, but no emotional blackmail here !"
+msgstr ""
+
+#: users/views.py:193
+msgid "Password reset"
+msgstr ""
+
+#: users/views.py:223
+msgid "Password reset on App"
+msgstr ""
+
+#: users/views.py:248
+msgid "Enter new password"
+msgstr ""
+
+#: users/views.py:308
+msgid "Password reset unsuccessful"
+msgstr ""
+
+#: users/views.py:326
+msgid "Your profile has been successfully updated "
+msgstr ""
+
+#: users/views.py:373
+msgid "Your profile has been successfully created "
+msgstr ""

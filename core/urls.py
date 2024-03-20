@@ -16,9 +16,19 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from django.conf.urls.i18n import i18n_patterns
+from django.conf import settings
+from django.conf.urls.static import static
 
-urlpatterns = [
+urlpatterns = i18n_patterns(
     path('i18n/', include('django.conf.urls.i18n')),
     path('admin/', admin.site.urls),
     path('', include('users.urls')),
-]
+    path('meals/', include('meals.urls')),
+    path('dashboard/', include('dashboard.urls')),
+    path('groups/', include('groups.urls')),
+    path('pages/', include('pages.urls')),
+) + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+#handling 404 errors
+handler404 = 'pages.views.page_not_found_view'
+
