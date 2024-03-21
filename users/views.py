@@ -157,9 +157,11 @@ def register_view(request):
             user.set_password(password)
             user.username = user.email
             user.save()
-            new_user = authenticate(username=user.email, password=password)
-            login(request, new_user)
-            return redirect('verify-email')
+            messages.success(request, _('Your profile has been successfully created.'))
+            # new_user = authenticate(username=user.email, password=password)
+            # login(request, new_user)
+            # return redirect('verify-email')
+            return redirect('login')
         else:
             for error in list(register_form.errors.values()):
                 print(request, error)
