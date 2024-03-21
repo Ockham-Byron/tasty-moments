@@ -1,10 +1,8 @@
 
-from django.contrib.auth import get_user_model
-User = get_user_model()
+from users.models import CustomUser
 
-
-if not User.objects.filter(is_superuser=True).first():
-    user = User.objects.create(
+if not CustomUser.objects.filter(is_superuser=True).first():
+    user = CustomUser.objects.create(
         username = 'ockham',
         email = 'ockham-byron@protonmail.com',
         is_superuser = True,
